@@ -3,11 +3,13 @@ import { join } from "node:path";
 
 const text = [
   "Low tide threads creeks through the marsh.",
-  "Dusk gathers in the grass.",
-  "One star in each pool—",
-  "the same light, repeated",
-  "till the pools run together.",
+  "Reeds comb light from channels.",
+  "One star in every pool—",
+  "the same point, broken, gathered whole again",
+  "as pools flow into the sea.",
+  "Its reflection widens past reeds and shore.",
   "The sea holds one star.",
+  "Night without shore or edge.",
 ].join("\n");
 
 const codePointCount = Array.from(text).length;
